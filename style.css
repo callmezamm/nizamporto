@@ -26,7 +26,7 @@
 }
 
 .nav-mid{
-    padding-left: 200px;
+    padding-left: 280px;
 }
 
 .jumbotron{
@@ -34,7 +34,7 @@
 }
 
 .end{
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 section{
@@ -47,6 +47,10 @@ section{
     margin-top: 50px;
     margin-bottom: 20px;
     filter: grayscale(100%);
+}
+
+.view-more{
+    margin-top: 50px
 }
 
 .skill:hover{
@@ -77,9 +81,33 @@ section{
     height: 550px; width:auto; filter: grayscale(100%);
 }
 
+.judul{
+    font-size: 50px;
+}
+
+#web{
+    margin-top: 100px;
+}
+
+.project{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img-project{
+    width: 600px;
+    height: auto;
+}
+
+
 @media (max-width: 575.98px) { 
     .jumbotron{
         margin-top: 100px;
+    }
+
+    .judul{
+        font-size: 30px;
+        text-align: center;
     }
 
     .nizam{
@@ -89,7 +117,7 @@ section{
     }
 
     .end{
-        padding-top: 80px;
+        padding-top: 10px;
     }
 
     .text{
@@ -114,4 +142,19 @@ section{
         height: 200px;
         width: auto;
     }
+
+    .nav-mid{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+    .jumbotron{
+        margin-top: 100px;
+    }
+
+    
 }
