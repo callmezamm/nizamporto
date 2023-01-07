@@ -99,6 +99,19 @@ section{
     height: auto;
 }
 
+.footer{
+    margin-bottom: 50px;
+}
+
+.blue{
+    color: #303030;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
 
 @media (max-width: 575.98px) { 
     .jumbotron{
@@ -148,6 +161,10 @@ section{
         padding-left: 0px;
     }
 
+    .nav-end{
+        text-align: center;
+    }
+
     .text{
         font-size: 12px;
     }
@@ -156,5 +173,8 @@ section{
         margin-top: 100px;
     }
 
-    
+    .img-project{
+        width: 300px;
+        height: auto;
+    }
 }
